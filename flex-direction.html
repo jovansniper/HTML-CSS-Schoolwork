@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .kutija {
+      width: 50px;
+      height: 50px;
+      background-color: lightgreen;
+      margin: 5px;
+    }
+    .kontinjer1, .kontinjer2, .kontinjer3, .kontinjer4 {
+      border: 2px solid green;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 25px;
+    }
+    .kontinjer1 {
+      flex-direction: column;
+    }
+    .kontinjer2 {
+      flex-direction: column-reverse;
+    }
+    .kontinjer3 {
+      flex-direction: row;
+    }
+    .kontinjer4 {
+      flex-direction: row-reverse;
+    }
+  </style>
+</head>
+<body>
+  <div class="kontinjer1">
+    <div class="kutija">1</div>
+    <div class="kutija">2</div>
+    <div class="kutija">3</div>
+  </div>
+    <div class="kontinjer2">
+    <div class="kutija">1</div>
+    <div class="kutija">2</div>
+    <div class="kutija">3</div>
+  </div>
+    <div class="kontinjer3">
+    <div class="kutija">1</div>
+    <div class="kutija">2</div>
+    <div class="kutija">3</div>
+  </div>
+    <div class="kontinjer4">
+    <div class="kutija">1</div>
+    <div class="kutija">2</div>
+    <div class="kutija">3</div>
+  </div>
+</body>
+</html>

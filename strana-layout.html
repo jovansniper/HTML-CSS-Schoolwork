@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .strana {
+      display: grid;
+      gap: 10px;
+      min-height: 100vh;
+      grid-template-columns: 220px 1fr;
+      grid-template-areas: "header header" "side side" "footer footer"
+    }
+    header {
+      grid-area: header;
+      background-color: lavender;
+    }
+    aside {
+      grid-area: side;
+      background-color: lightpink;
+    }
+    main {
+      grid-area: main;
+      background-color: lightsalmon;
+    }
+    footer {
+      grid-area: footer;
+      background-color: lightsteelblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="strana">
+    <header>Header</header>
+    <aside>Sidebar</aside>
+    <main>Main</main>
+    <footer>Footer</footer>
+  </div>
+  
+</body>
+</html>

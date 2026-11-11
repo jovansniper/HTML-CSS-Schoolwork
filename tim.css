@@ -1,0 +1,71 @@
+.tim {
+  text-align: center;
+}
+
+.kartica {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 1.5%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.kartica h3 {
+  color: #253544;
+  margin-top: 15px;
+}
+h3 + p {
+  font-weight: bold;
+  color: #525151
+}
+.kartica a {
+  color: #025fbd;
+  text-decoration: none;
+}
+.kartica:first-child {
+  border-color: gold;
+}
+.kartica:nth-child(2) .avatar {
+  background-color: green;
+}
+.kartica:last-child .avatar {
+  background-color: red;
+}
+.kartica:first-child::before {
+  content: "Лидер";
+  display: block;
+  font-weight: bold;
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.kartica:hover {
+  margin-top: -10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.kartica a:hover {
+  color: #ff4500;
+}
+
+.kartica:hover .avatar {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+}

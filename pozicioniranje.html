@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .mreza {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      grid-template-rows: minmax(80px, auto);
+    }
+    .shiroka {
+      grid-template-columns: 1/3;
+    }
+    .visoka {
+      grid-row: span 2;
+    }
+    .mreza {
+      grid-auto-flow: dense;
+    }
+    .mreza div {
+      background-color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+  <div class="mreza">
+    <div class="shiroka">Kelija shiroka za 2</div>
+  <div>2</div>
+  <div class="visoka">Kelija visoka za 2</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  </div>
+</body>
+</html>

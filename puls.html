@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .srce {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    @keyframes puls {
+      0%{transform: scale(1);}
+      50%{transform: scale(1.15);}
+      100%{transform: scale(1);}
+    }
+    .srce { animation: puls 1.2s infinite; }
+
+    .topce {
+      background-color: lightblue;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin: 20px;
+    }
+    @keyframes skoka {
+      0%{transform: translateY(0);}
+      50%{transform: translateY(-30px);}
+      100%{transform: translateY(0);}
+    }
+    .topce {
+      animation: skoka .9s ease-in-out infinite alternate;
+    }
+    .kocka {
+      background-color: lightgreen;
+      width: 100px;
+      height: 100px;
+      margin: 20px;
+    }
+    @keyframes pojavi {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; text-transform: none;}
+    }
+    .kocka {
+      animation: pojavi 0.15s ease-out both;
+    }
+  </style>
+</head>
+<body>
+  <div class="srce"></div>
+  <br>
+  <div class="topce"></div>
+  <br>
+  <div class="kocka"></div>
+</body>
+</html>

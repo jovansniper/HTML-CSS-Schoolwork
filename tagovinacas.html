@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .Predmet {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      list-style: none;
+    }
+    li {
+      padding: 4px 12px; 
+      background-color: lightblue;
+      border-radius: 10px;
+    }
+    .naslov {
+      max-width: 800px;
+      margin: 0;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font: 20px;
+      margin-bottom: 15px;
+    }
+    .Predmet {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      list-style: none;
+      margin-bottom: 25px;
+    }
+    .kniga {
+      background-color: #b4ae55;
+      border: 10px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .korica {
+      width: 60px;
+      height: 90px;
+      border-radius: 6px;
+    }
+    .sino { background-color: rgb(29, 29, 219);}
+    .crveno { background-color: red;}
+    .zeleno { background-color: green;}
+  </style>
+</head>
+<body>
+  <h1 class="naslov">Книжарница страница</h1>
+  <ul class="Predmet">
+    <li>#Роман</li>
+    <li>#Поезија</li>
+    <li>#Детски</li>
+    <li>#Стрип</li>
+    <li>#Научни</li>
+    <li>#Класици</li>
+  </ul>
+   <h2>Нови книги</h2>
+  <div class="korica sino"></div>
+   <div class="kniga">
+   <h3>Сини ноќи</h3>
+   <p>Роман 450 ден.</p>
+   </div>
+   <div class="kniga">
+  <div class="korica crveno"></div>
+    <h3>Стихови</h3>
+    <p>поезија 320 ден.</p>
+   </div>
+   <div class="kniga">
+     <div class="korica crveno"></div>
+    <h3>Мала ѕвезда</h3>
+    <p>Детски 280 ден.</p>
+   </div>
+   <div class="kniga">
+     <div class="korica sino"></div>
+    <h3>Храбриот Марко</h3>
+    <p>Стрип 380 ден.</p>
+   </div>
+   <div class="kniga">
+     <div class=" korica zeleno"></div>
+    <h3>Универзум</h3>
+    <p>Научни 600 ден.</p>
+   </div>
+   <div class="kniga">
+     <div class=" korica zeleno"></div>
+    <h3>Стари приказни</h3>
+    <p>Класици 350 ден.</p>
+   </div>
+   <div class="popust">
+    Секоја книга - 10% попуст овој викенд!
+   </div>
+</body>
+</html>

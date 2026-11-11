@@ -1,0 +1,48 @@
+p {
+  color: red;
+  text-align: center;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: green;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: green;
+}
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.san_serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Paragraf1 {
+  font-size: larger;
+  font-weight: bolder;
+}
+#Paragraf4 {
+  font-size: 150%;
+}
+
+#Paragraf2 {
+  font-size: 50%;
+}
+
+td {
+  background-color: cyan;
+  color: black;
+  width: 120px;
+}
+div {
+  background-color: yellow;
+  color: black;
+  width: 320px;
+  height: 200px;
+}
+ol {
+  text-align: center;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prognoza</title>
+  <link rel="stylesheet" href="prognoza.css">
+</head>
+<body>
+  <div class="fixed-badge">position: fixed</div>
+  
+  <div class="page-container">
+    <header>
+      <h1>Времето денес</h1>
+      <p>Прилеп - ажурирано пред 40 минути</p>
+    </header>
+    
+    <div class="sky">
+      <div class="sky-label">position: relative</div>
+      <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Sun" class="sun">
+      <img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" alt="Cloud" class="cloud1">
+      <img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" alt="Cloud" class="cloud2">
+      <div class="sky-temp">
+        15°
+        <span>(absolute)</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <section>
+        <h2>Преку денот (position: sticky)</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3>Утро</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Sun">
+            <div class="temp">5°</div>
+            <span class="badge-inline-block">inline-block</span>
+          </div><div class="card">
+            <h3>Пладне</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Sun">
+            <div class="temp">21°</div>
+            <span class="badge-inline-block">inline-block</span>
+          </div><div class="card">
+            <h3>Попладне</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" alt="Cloud">
+            <div class="temp">12°</div>
+            <span class="badge-inline-block">inline-block</span>
+          </div><div class="card">
+            <H3>Вечер</H3>
+            <img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" alt="Cloud">
+            <div class="temp">8°</div>
+            <span class="badge-inline-block">inline-block</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Предупредување (position: sticky)</h2>
+        <div class="warning-box">display: block - јас зафаќам цел ред</div>
+        <p class="warning-text">
+          Попладне е можен силен ветар, а температурата ќе падне до <span class="inline-span">display: inline</span> 12 степени
+        </p>
+        <div class="relative-box">position: relative (top: 10px; left: 40px)</div>
+      </section>
+
+      <section>
+        <h2>Совети (position: sticky)</h2>
+        <p class="warning-text">Носете јакна за вечер и очила за сонце за пладне. Носете јакна за вечер и очила за сонце, програмата се менува, затоа проверувајте ја често</p>
+      </section>
+    </div>
+  </div>
+
+  <aside>
+    <a href="#">Денес</a>
+    <a href="#">Утре</a>
+    <a href="#">Недела</a>
+    <span>position: fixed</span>
+  </aside>
+</body>
+</html>

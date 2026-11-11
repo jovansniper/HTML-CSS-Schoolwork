@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .parent {
+      position: relative;
+      width: 500px;
+      height: 200px;
+      border: 2px solid plum;
+      padding: 10px;
+
+    }
+    .child {
+      background: lavender;
+      width: 150px;
+      padding: 7px;
+      margin-bottom: 7px;
+    }
+    .rel {
+      position: relative;
+      top: 10px;
+      left: 30px;
+      background-color: lightcoral;
+    }
+    .abs {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: lightpink;
+    }
+    .kopce {
+      background-color: lightgray;
+      padding: 5px;
+      border-radius: 10px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child">static</div>
+    <div class="child rel">relative</div>
+    <div class="child abs">absolute</div>  
+  </div>
+
+  <a href="#" class="kopce">Back</a>
+</body>
+</html>

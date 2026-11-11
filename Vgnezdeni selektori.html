@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+.meny li {
+  color: crimson;
+}
+.meny > li {
+  font-weight: bold;
+}
+
+h3 + p {
+  color: green;
+}
+h3 ~ p {
+  background-color: orange;
+}
+#paragraf_one {
+  font-size: larger;
+}
+.paragraf {
+  font-style: italic;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+}
+div h3:first-child {
+  color: blue;
+}
+.kocka h3:first-child {
+  background-color: yellow;
+}
+.kocka:nth-child(2) {
+  font-size: smaller;
+}
+.kocka h3:hover {
+  color: aqua;
+}
+
+#Naslov:hover {
+  background-color: violet;
+}
+.box-sizing {
+  height: 200px;
+  width: 350px;
+  padding-bottom: 3px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 7px;
+  border: 5px solid blue;
+  margin: 15px;
+  border-radius: 15px;
+}
+  </style>
+</head>
+<body>
+  <ul class="meny">
+    <li> Coffee
+      <ul>
+    <li>Espresso</li>
+    <li>Machiato</li>
+      </ul>
+    </li>
+    <li>Hot chocolate</li>
+    <li>Tea</li>
+  </ul>
+  <div class="kocka">
+  <h3>Naslov</h3>
+  <p id="paragraf_one">Paragraf 1</p>
+  <p class="paragraf">paragraf 2</p>
+  <p>paragraf 3</p>
+  </div>
+
+  <div class="box-sizing">
+    <h3>Naslov</h3>
+    <p>Paragraf 1</p>
+    <p>paragraf 2</p>
+    <p>paragraf 3</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0 0 80px 0;
+  background-color: #ebeff3;
+  color: #353434;
+}
+.page-container {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+header {
+  padding: 20px 25px 10px 25px;
+  background-color: #ffffff;
+}
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #474747;
+  font-weight: normal;
+}
+header p {
+  margin: 5px 0 0 0;
+  color: #858383;
+  font-size: 14px;
+}
+.fixed-badge {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #7c4dff;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-size: 12px;
+  z-index: 100;
+}
+.sky {
+  position: relative;
+  height: 220px;
+  background-color: #2a5188;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.sky-label {
+  font-size: 13px;
+  color: #c5d6e7;
+}
+.sun {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  width: 90px;
+  z-index: 1;
+}
+.cloud1 {
+  position: absolute;
+  top: 35px;
+  left: 100px;
+  width: 110px;
+  z-index: 2;
+}
+.cloud2 {
+  position: absolute;
+  top: 40px;
+  right: 220px;
+  width: 120px;
+}
+.sky-temp {
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: right;
+  margin: 0;
+  line-height: 1;
+}
+.sky-temp span {
+  display: block;
+  font-size: 12px;
+  color: #c9dbec;
+  margin-top: 5px;
+}
+.content {
+  padding: 20px 25px;
+}
+h2 {
+  position: sticky;
+  top: 0;
+  background-color: #e67c21;
+  color: white;
+  padding: 10px 15px;
+  margin: 25px 0 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  z-index: 10;
+}
+.card-container {
+  text-align: justify;
+  font-size: 0;
+}
+.card {
+  display: inline-block;
+  width: 20%;
+  margin-right: 2%;
+  background-color: white;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: top;
+  font-size: 14px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #585757;
+  font-weight: normal;
+}
+.card img {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.card .temp {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+.badge-inline-block {
+  display: inline-block;
+  background-color: #aad6d3;
+  color: #005043;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+.warning-box {
+  display: block;
+  width: 100%;
+  background-color: #fce3eb;
+  border: 1px solid #f7bacf;
+  color: #850e4d;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.relative-box {
+  position: relative;
+  top: 10px;
+  left: 40px;
+  background-color: #ffe083;
+  padding: 8px 15px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.warning-text {
+  font-size: 13px;
+  color: #555454;
+  line-height: 1.5;
+}
+.inline-span {
+  display: inline;
+  background-color: #d7e9f5;
+  color: #03689e;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+aside {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1b283b;
+  padding: 12px 0;
+  text-align: center;
+  z-index: 100;
+}
+aside a {
+  display: inline-block;
+  width: 110px;
+  padding: 8px 0;
+  margin: 0 6px;
+  background-color: #3e557a;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+aside span {
+  color: #8797b1;
+  font-size: 12px;
+  margin-left: 10px;
+}

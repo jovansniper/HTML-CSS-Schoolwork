@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kafe</title>
+  <link rel="stylesheet" href="kafe.css">
+</head>
+<body>
+  <header>
+    <div class="logo-sekcija">
+      <svg class="logo-svg inline-svg" width="24" height="24" viewbox="0 0 24 24">
+        <path d="M4 19h16v2H4v-2zM20 3H4v10c0 2.21 1.79 4 4 4h8c2.21 0 4-1.79 4-4V3zm-2 10c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V5h12v8z"/>
+      </svg>
+      Кафе Арома
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#meni">Мени</a></li>
+        <li><a href="#cena">Ценовник</a></li>
+        <li><a href="#naracka">Порачај</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="kontinjer">
+    <section class="najgore">
+      <div class="najprv-tekst">
+        <h1>Првото кафе на денот е најдоброто</h1>
+        <p>Свежо мелено зрно, рачно приготвено со љубов. Влезете, седнете и дозволете ни да го подготвиме вашето омилено кафе.</p>
+        <a href="#naracka" class="kopce">Порачај кафе</a>
+      </div>
+      <div class="glavna-ikona">
+        <svg class="casa inline-svg" viewbox="0 0 24 24">
+          <path d="M20 3H4v10c0 2.21 1.79 4 4 4h8c2.21 0 4-1.79 4-4V3zm-2 10c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V5h12v8zM4 19h16v2H4v-2z"/>
+          <rect x="11" y="2" width="2" height="4"/>
+          <rect x="7" y="2" width="2" height="4"/>
+        </svg>
+      </div>
+    </section>
+    <section class="centar-sekcija">
+      <h2>За нас</h2>
+      <div class="slika">Слика</div>
+      <div class="predmet">
+        <p>Кафе Арома работи од 2015 година во центарот на Скопје. Нашите зрна доаѓаат директно од мали фарми, а секоја шолја се подготвува свежо.</p>
+        <div class="tagovi">
+          <span class="tag">свежо</span>
+          <span class="tag">домашни колачи</span>
+          <span class="tag">бесплатен wi-fi</span>
+        </div>
+      </div>
+    </section>
+    <section id="meni" class="meni">
+      <h2>Наше мени</h2>
+      <div class="meni-grid">
+        <div class="meni-kartica-kontinjer">
+          <div class="meni-kartica">
+            <span class="badge-novo">Ново</span>
+            <div class="kartica-slika"></div>
+            <div class="kartica-info">
+              <div class="kartica-ime">Еспресо</div>
+              <div class="kartica-desk">Силно и интензивно</div>
+              <div class="dolen-del">
+                <div class="kartica-cena">70 ден.</div>
+                <a href="#naracka" class="kopce-m">Порачај</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="meni-kartica-kontinjer">
+          <div class="meni-kartica">
+            <span class="badge-novo">Хит</span>
+            <div class="kartica-slika"></div>
+            <div class="kartica-info">
+              <div class="kartica-ime">Капучино</div>
+              <div class="kartica-desk">Еспресо со кадифена пена од млеко.</div>
+              <div class="dolen-del">
+                <div class="kartica-cena">110 ден.</div>
+                <a href="#naracka" class="kopce-m">Порачај</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="meni-kartica-kontinjer">
+          <div class="meni-kartica">
+            <div class="kartica-slika"></div>
+            <div class="kartica-info">
+              <div class="kartica-ime">Лате</div>
+              <div class="kartica-desk">Нежно кафе со многу млеко.</div>
+              <div class="dolen-del">
+                <div class="kartica-cena">120 ден.</div>
+                <a href="#naracka" class="kopce-m">Порачај</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="cenovnik-sekcija">
+      <h2>Ценовник и информации</h2>
+      <div class="cenovnik">
+        <div class="cenovnik-tabla-kontinjer">
+          <table>
+            <thead>
+              <tr>
+                <th>Категорија</th>
+                <th>Пијалак</th>
+                <th>Мала</th>
+                <th>Голема</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Кафе</td>
+                <td>Капучино</td>
+                <td>110</td>
+                <td>140</td>
+              </tr>
+              <tr>
+                <td>Лате</td>
+                <td>120</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>Чај (разни вкусови)</td>
+                <td colspan="2" class="caj-mal-col">80</td>
+                <td>100</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cena-info">
+          <div class="info-block">
+            <h3>Што нудиме</h3>
+            <ul class="ul-list">
+              <li>Свежо мелено кафе</li>
+              <li>Домашни колачи</li>
+              <li>Безлактозно млеко</li>
+            </ul>
+          </div>
+          <div class="info-block">
+            <h3>Како до порачка</h3>
+            <ol class="ol-list">
+              <li>Избери пијалак</li>
+              <li>Пополни ја формата</li>
+              <li>Подигни во локалот</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="naracka" class="naracka">
+      <h2>Порачај</h2>
+      <form action="#" method="post">
+        <div class="form-grupa">
+          <label for="name">Име (задолжително)</label>
+          <input type="text" id="name" name="name" required placeholder="Вашето име">
+        </div>
+        <div class="form-grupa">
+          <label>Големина</label>
+          <div class="form-check" style="display: flex; gap: 15px;">
+            <div>
+              <input type="radio" id="small" name="size" value="small" checked>
+              <label for="small" style="display: inline; margin-bottom: 0;">Мала</label>
+            </div>
+            <div>
+              <input type="radio" id="large" name="size" value="large">
+              <label for="large" style="display: inline; margin-bottom: 0;">Големина</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-grupa form-check">
+          <input type="checkbox" id="extra_mleko" name="extra_mleko">
+          <label for="extra_mleko" style="display: inline; margin-bottom: 0;">Со дополнително млеко</label>
+        </div>
+        <button type="submit" class="kopce-m">Испрати порачка</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">Ул. Македонија 5, Скопје</div>
+      <div class="footer-col">Секој ден 7:00 - 22:00</div>
+      <div class="footer-col">тел: 070 555 111</div>
+    </div>
+  </footer>
+</body>
+</html>
